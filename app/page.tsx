@@ -27,8 +27,8 @@ export default function HomePage() {
               <a href="#support" className="text-muted-foreground hover:text-foreground transition-colors">
                 Support
               </a>
-              <Button variant="outline" size="sm">
-                Sign In
+              <Button variant="outline" size="sm" asChild>
+                <Link href="/auth/login">Sign In</Link>
               </Button>
               <Button size="sm">Get Started</Button>
             </div>
