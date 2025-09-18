@@ -239,7 +239,7 @@ export default function CommunityPage() {
             <div>
               <h3 className="font-medium text-blue-900 mb-1">Community Guidelines</h3>
               <p className="text-sm text-blue-800">
-                This is a safe, moderated space. Be respectful, supportive, and remember that everyone's experience is
+                This is a safe, moderated space. Be respectful, supportive, and remember that everyone&apos;s experience is
                 valid. Trained volunteers and mental health professionals monitor discussions.
               </p>
             </div>
@@ -532,7 +532,7 @@ export default function CommunityPage() {
               <Card className="hover:shadow-md transition-shadow">
                 <CardHeader>
                   <CardTitle className="text-lg">Budget-Friendly Self-Care</CardTitle>
-                  <CardDescription>Self-care ideas that don't break a student budget</CardDescription>
+                  <CardDescription>Self-care ideas that don&apos;t break a student budget</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="flex items-center justify-between mb-4">
@@ -556,7 +556,7 @@ export default function CommunityPage() {
             <div>
               <h3 className="font-medium text-destructive mb-2">Need Immediate Support?</h3>
               <p className="text-sm text-muted-foreground mb-4">
-                If you're in crisis or having thoughts of self-harm, please reach out for professional help immediately.
+                If you&apos;re in crisis or having thoughts of self-harm, please reach out for professional help immediately.
               </p>
               <div className="flex flex-col sm:flex-row gap-2">
                 <Button variant="destructive" size="sm">

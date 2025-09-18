@@ -382,7 +382,7 @@ export default function ResourcesPage() {
             </div>
             <h3 className="text-lg font-medium mb-2">No resources found</h3>
             <p className="text-muted-foreground mb-4">
-              Try adjusting your search terms or filters to find what you're looking for.
+              Try adjusting your search terms or filters to find what you&apos;re looking for.
             </p>
             <Button
               variant="outline"
@@ -452,7 +452,7 @@ export default function ResourcesPage() {
             </div>
             <h3 className="text-2xl font-bold mb-4">Need Immediate Help?</h3>
             <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-              If you're experiencing a mental health crisis or having thoughts of self-harm, please reach out for
+              If you&apos;re experiencing a mental health crisis or having thoughts of self-harm, please reach out for
               immediate professional support.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

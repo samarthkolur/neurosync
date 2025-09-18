@@ -179,7 +179,7 @@ export default function BookingPage() {
             <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-8">
               <h3 className="font-medium text-blue-900 mb-2">What happens next?</h3>
               <ul className="text-sm text-blue-800 space-y-1 text-left">
-                <li>• You'll receive a confirmation email with session details</li>
+                <li>• You&apos;ll receive a confirmation email with session details</li>
                 <li>• A reminder will be sent 24 hours before your appointment</li>
                 <li>• All sessions are completely confidential</li>
                 <li>• You can reschedule or cancel up to 2 hours before</li>
@@ -480,7 +480,7 @@ export default function BookingPage() {
                   <Label htmlFor="concern">Primary Concern *</Label>
                   <Textarea
                     id="concern"
-                    placeholder="Briefly describe what you'd like to discuss (this helps the counselor prepare)"
+                    placeholder="Briefly describe what you&apos;d like to discuss (this helps the counselor prepare)"
                     required
                     value={formData.concern}
                     onChange={(e) => setFormData({ ...formData, concern: e.target.value })}
@@ -518,7 +518,7 @@ export default function BookingPage() {
                       <SelectItem value="no">No, this is my first time</SelectItem>
                       <SelectItem value="yes-helpful">Yes, and it was helpful</SelectItem>
                       <SelectItem value="yes-mixed">Yes, with mixed results</SelectItem>
-                      <SelectItem value="yes-unhelpful">Yes, but it wasn't helpful</SelectItem>
+                      <SelectItem value="yes-unhelpful">Yes, but it wasn&apos;t helpful</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>
